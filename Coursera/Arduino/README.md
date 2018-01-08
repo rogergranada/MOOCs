@@ -1,0 +1,11 @@
+# Coursera : Building Arduino robots and devices
+
+This folder contains codes to the [Arduino](https://www.coursera.org/learn/arduino/) course by Alexey Perepelkin and Dmitry Savitsky. According to the description presented in the web site:
+
+> For many years now, people have been improving their tools, studying the forces of nature and bringing them under control, using the energy of the nature to operate their machines. Last century is noted for the creation of machines which can operate other machines. Nowadays the creation of devices that interact with the physical world is available to anyone. 
+> Our course consists of a series of practical problems on making things that work independently: they make their own decisions, act, move, communicate with each other and people around, and control other devices. We will demonstrate how to assemble such devices and programme them using the Arduino platform as a basis.
+> After this course, you will be able to create devices that read the data about the external world with a variety of sensors, receive and forward this data to a PC, the Internet and mobile devices, and control indexing and the movement. The creation of such devices will involve design, the study of their components, the assemblage of circuit boards, coding and diagnostics. Along with the creation of the devices themselves, you will perform visualization on a PC, create a web page that will demonstrate one of your devices, and figure out how an FDM 3D-printer is configured and how it functions.
+> Besides those keen on robotics or looking to broaden their horizons and develop their skills, the course will also be useful to anyone facing the task of home and industrial automation, as well as to anyone engaged in industrial design, advertising and art. 
+> The course does not require any special knowledge from the participants and is open even to students of upper secondary school. Programming skills and the level of English allowing to read technical documentation would be an advantage, but this is not obligatory.
+> The entire course is dedicated to practice, so the best way for you would be to get hold of some electronics, follow the illustrated examples and experiment on your own.
+
