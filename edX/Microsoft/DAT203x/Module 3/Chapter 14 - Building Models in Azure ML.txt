@@ -1,0 +1,17 @@
+KEY POINTS
+
+Creating models is an iterative process that involves exploring data to select a set of candidate features, splitting the data to create a training set, selecting an appropriate machine learning model and training it, scoring and evaluating the model, and repeating the process until the best model for your predictive scenario and data has been identified.
+
+When existing columns don't align well with your label, try engineering polynomial columns by squaring or cubing them. This can often create a more useful distribution of values that align to the label better than the base feature values.
+
+When working on a classification or regression model, use the Score Model module to compare the predicted values (or scored labels) with the known actual label values in the portion of the dataset that was not used to train the model.
+
+In addition to the built-in models with the Train Model and Score Model modules, you create models using custom R or Python code.
+
+
+FURTHER READING
+
+Note: These links take you to external sites outside of the edX course.
+
+Train Model module: https://msdn.microsoft.com/en-us/library/azure/dn906044.aspx
+Score Model module: https://msdn.microsoft.com/en-us/library/azure/dn905995.aspx

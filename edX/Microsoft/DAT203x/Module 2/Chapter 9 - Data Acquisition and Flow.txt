@@ -1,0 +1,31 @@
+KEY POINTS
+
+An Azure ML experiment is usually published as a Web service, to which real-time data can be passed as input and results are returned as output. In addition to the real-time data passed to the web service, the experiment may reference static data.
+
+Real-time data is passed to a published experiment through the Web Service Input module. Results are passed to the client that called the experiment web service through the Web Service Output module.
+
+You can use the following Azure ML modules to read and write static data:
+
+- Dataset (read data from sample data or manually uploaded data files)
+- Enter Data (enter data values directly into the experiment)
+- Reader (read data from Azure storage, Azure SQL Database, HTTP URLs, data feeds, or Hive queries)
+- Writer (write data to Azure storage, Azure SQL Database, or HTTP URLs)
+
+You can use the Join module to combine two datasets based on common key fields.
+You can use the Add Rows module to concatenate (or union) two datasets with similar schema.
+
+Joins: Both tables need common key column X_join(A, B, keyColumn)
+
+- Inner join: rows with at least one key match in A and B
+- Left join: all rows from the left table with all matching rows of the right table
+- right join: all rows from the right table with all matching rows of the left table
+- Full join: retains all values all all rows
+
+FURTHER READING
+
+Note: These links take you to external sites outside of the edX course.
+
+Import data: https://azure.microsoft.com/en-gb/documentation/articles/machine-learning-import-data/
+Data Input and Output: https://msdn.microsoft.com/en-us/library/azure/dn906024.aspx
+The Join module: https://msdn.microsoft.com/en-us/library/azure/dn905836.aspx
+The Add Rows module: https://msdn.microsoft.com/en-us/library/azure/dn905871.aspx

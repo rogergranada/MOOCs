@@ -1,0 +1,27 @@
+KEY POINTS
+
+The process for creating classification models is similar to that for regression models.
+
+As with regression models, you can use the Evaluate Model module to determine model performance, you can use the Sweep Parameters module to train a classification module based on a random selection of parameter settings, and you can use the Cross Validate module to ensure that the function and coefficients in the model are generalizable.
+
+The metrics for evaluating classification model performance are based on statistics for true positive (TP), true negative (TF), false positive (FP), and false negative (FN) predictions. These metrics include:
+
+            +------------+-------------+
+            | Model True | Model False |
++-----------+------------+-------------|
+|Real True  |     TP     |     TN      |
+|-----------+------------+-------------|
+|Real False |     FP     |     FN      |
++-----------+------------+-------------+
+
+Accuracy = TP + TN / (TP + TN + FP + FN)
+Precision (or positive predictive value) = TP / (TP + FP)
+Recall = TP / (TP + FN)
+F1 = Precision * Recall / (Precision + Recall)
+
+
+FURTHER READING
+
+Note: These links take you to external sites outside of the edX course.
+
+Classification Models: https://msdn.microsoft.com/en-us/library/azure/dn905808.aspx

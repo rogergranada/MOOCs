@@ -1,0 +1,18 @@
+KEY POINTS
+
+You can use the Sweep Parameters module to train a regression model based on a random selection of parameter settings until the best combination is found.
+
+You can use the Cross Validation module to perform cross-validation of a regression model. This helps identify and eliminate issues caused by disparity between the training data and test data, and ensures a more generalized model. When evaluating the results of cross-validation, a model that will generalize well is indicated by similar metrics across all of the folds with a small range of mean values and a low standard deviation.
+
+You can evaluate the performance of a regression model by visualizing the residuals (errors) using R or Python and comparing them to the label and features. In a model that is a good fit for the data, and in which the information in the features is being exploited effectively, the residuals should be randomly distributed with no evident structure in relation to features or the label.
+
+If after evaluating model performance and feature importance for a regression model, you find that you can't improve its accuracy through feature engineering or pruning; you can try a different kind of regression model. For example, if you have built a linear model (such as Bayesian linear regression), and you have identified a number of non-linear relationships between features and the label, you might have more success with a non-linear model (such as Decision forest regression.)
+
+
+FURTHER READING
+
+Note: These links take you to external sites outside of the edX course.
+
+Regression Models: https://msdn.microsoft.com/en-us/library/azure/dn905922.aspx
+Sweep Parameters: https://msdn.microsoft.com/en-us/library/azure/dn905810.aspx
+Cross Validate: https://msdn.microsoft.com/en-us/library/azure/dn905852.aspx
