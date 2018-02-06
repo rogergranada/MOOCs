@@ -1,6 +1,11 @@
 # edX : AdelaideX - Introduction to Project Management
 
-This folder contains codes to the [Introduction to Project Management](https://www.edx.org/course/introduction-project-management-adelaidex-project101x-1) course by Frank Schultmann. According to the description presented in the web site:
+This folder contains codes to the [Introduction to Project Management](https://www.edx.org/course/introduction-project-management-adelaidex-project101x-1) course by Frank Schultmann. 
+
+[![Video link](https://img.youtube.com/vi/5_Q_qmvt8RM/0.jpg)](https://youtu.be/5_Q_qmvt8RM "Introduction")
+
+
+According to the description presented in the web site:
 
 > Project management is an essential skill-set for many careers and in many contexts in our lives. Introduction to Project Management is an ideal starting point if you need to manage projects at work or at home, while not necessarily being a formally trained project manager. It is also suitable if you are considering undertaking a project in the near future and are seeking to learn and apply essential project management knowledge and skills.
 > 
