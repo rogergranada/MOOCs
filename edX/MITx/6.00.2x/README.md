@@ -2,10 +2,8 @@
 
 This folder contains codes to the [Introduction to Computational Thinking and Data Science](https://www.edx.org/course/introduction-computational-thinking-data-mitx-6-00-2x-6/) course by John Guttag and Eric Grimson. 
 
-| | |
-|-|-|
-| ![Logo from course](https://webview.edx.org/sites/default/files/course/image/promoted/6.00.2x_computational_thinking_homepage378x225.jpg) | Introduction to Computational Thinking and Data Science 6.00.2x is an introduction to using computation to understand real-world phenomena. |
-|                                                                                                                                           | ![img](https://webview.edx.org/sites/default/files/school/image/banner/mit_logo_200x101_0.png)
+|[]()                                                                                                                                       |                                                                                                                                                                                                                                            |
+| ![Logo from course](https://webview.edx.org/sites/default/files/course/image/promoted/6.00.2x_computational_thinking_homepage378x225.jpg) | Introduction to Computational Thinking and Data Science 6.00.2x is an introduction to using computation to understand real-world phenomena. ![img](https://webview.edx.org/sites/default/files/school/image/banner/mit_logo_200x101_0.png) |
 
 According to the description presented in the web site:
 
