@@ -1,6 +1,10 @@
 # edX : Microsoft - Data Science Essentials
 
-This folder contains codes to the [Data Science Essentials](https://www.edx.org/course/data-science-essentials-microsoft-dat203-1x-6) course by Graeme Malcolm from Microsoft. According to the description presented in the web site:
+This folder contains codes to the [Data Science Essentials](https://www.edx.org/course/data-science-essentials-microsoft-dat203-1x-6) course by Graeme Malcolm and Steve Elston from Microsoft. 
+
+[![Video link](https://img.youtube.com/vi/OgONrGwHTyU/0.jpg)](https://www.youtube.com/watch?time_continue=1&v=OgONrGwHTyU "Introduction")
+
+According to the description presented in the web site:
 
 > Demand for data science talent is exploding. Develop your career as a data scientist, as you explore essential skills and principles with experts from Duke University and Microsoft.
 > 
