@@ -1,6 +1,10 @@
 # edX : Aplicaciones de la Teoría de Grafos a la Vida Real (I)
 
-This folder contains codes to the [Aplicaciones de la Teoría de Grafos a la Vida Real (I)](https://www.edx.org/course/aplicaciones-de-la-teoria-de-grafos-la-upvalenciax-tgv201x-1-1) course by Dr. José Alberto Conejero Casares from Universitat Politècnica de Valencia. According to the description presented in the web site:
+This folder contains codes to the [Aplicaciones de la Teoría de Grafos a la Vida Real (I)](https://www.edx.org/course/aplicaciones-de-la-teoria-de-grafos-la-upvalenciax-tgv201x-1-1) course by Dr. José Alberto Conejero Casares from Universitat Politècnica de Valencia. 
+
+[![Video link](https://img.youtube.com/vi/dP7-gXXXiaM/0.jpg)](https://www.youtube.com/watch?v=dP7-gXXXiaM "Introduction")
+
+According to the description presented in the web site:
 
 > Este curso trata la Teoría de Grafos desde el punto de vista de la modelización, lo que nos permitirá con posterioridad resolver muchos problemas de diversa índole. Presentaremos ejemplos de los distintos problemas en un contexto real, analizaremos la representación de éstos mediante grafos y veremos los algoritmos necesarios para resolverlos.
 > 
