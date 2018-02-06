@@ -1,6 +1,10 @@
 # edX : Linear Algebra - Foundations to Frontiers
 
-This folder contains codes to the [Linear Algebra - Foundations to Frontiers](https://www.edx.org/course/laff-linear-algebra-foundations-to-frontiers) course by Robert van de Geijn from University of Texas at Austin. According to the description presented in the web site:
+This folder contains codes to the [Linear Algebra - Foundations to Frontiers](https://www.edx.org/course/laff-linear-algebra-foundations-to-frontiers) course by Robert van de Geijn from University of Texas at Austin. 
+
+[![Video link](https://img.youtube.com/vi/c0fy5V7hA4g/0.jpg)](https://www.youtube.com/watch?v=c0fy5V7hA4g "Introduction")
+
+According to the description presented in the web site:
 
 > Linear Algebra: Foundations to Frontiers (LAFF) is packed full of challenging, rewarding material that is essential for mathematicians, engineers, scientists, and anyone working with large datasets. Students appreciate our unique approach to teaching linear algebra because:
 > 
