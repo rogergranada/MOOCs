@@ -22,3 +22,7 @@ According to the description presented in the web site:
 - Algorithms for matrix computations and solving systems of equations
 - Vector spaces, subspaces, and characterizations of linear independence
 - Orthogonality, linear least-squares, eigenvalues and eigenvectors
+
+# Content folder
+
+If you are looking for answers, please check the folder [content](https://goo.gl/hYdPXM).
