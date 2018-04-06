@@ -107,3 +107,4 @@ octave-workspace
 *.md~
 *.py~
 *.ipynb~
+*.m~
