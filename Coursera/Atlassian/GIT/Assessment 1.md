@@ -3,9 +3,9 @@
 ## Question 1
 
 Which one of these statements about Git is true?  
--- [x] Each version of the project is called a branch.  
--- [ ] A commit containing one small change to a project is not practical.  
--- [ ] Git helps manage the history of the project.  
+- [x] Each version of the project is called a branch.  
+- [ ] A commit containing one small change to a project is not practical.  
+- [ ] Git helps manage the history of the project.  
 
 ## Question 2
 
