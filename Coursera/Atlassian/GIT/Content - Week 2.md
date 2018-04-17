@@ -169,10 +169,10 @@ A branch is a set of commits that trace back to the project's first commit
 Topic branch: A feature, a bug, a fix, etc.
 Long-lived: master, develop, release, etc.
 
-Checking branches:
+Checking existent branches:
 
 ```
-$ git branch -a
+$ git branch
 ```
 
 Creating a branch:
@@ -184,12 +184,27 @@ $ git branch <name>
 Git **checkout** updates the HEAD reference. When creating a new branch, it is important to checkout the new branch in order to push code to the new branch. If a new branch is created without checkout, then the next commit will belong to the master branch instead of to the branch of the new feature.
 
 ```
-$ git checkout <branch>
+$ git checkout <branch_or_commit>
+```
+
+Creating and checking out a branch can be performed using the command:
+
+```
+$ git checkout -b <name_of_branch>
 ```
 
 Detached HEAD points the HEAD reference to other commits performed before. In case the user wants to perform a new commit, it is important to create a new branch from the detached HEAD and checkout the new branch before performing the commit.
 
-Deleting a branch means deleting a branch label. When deleting the branch label, the content to the branch will not be accessed anymore. In case the user creates a new branch and performs commits o that branch, and then tries to delete it, Git will warn the user about dangling commits (i.e., commits that do not belong to any branch). In case the user forces deleting the branch label, all the content produced in the branch will be dangled and garbage collected eventually.
+Deleting a branch means deleting a branch label. When deleting the branch label, the content to the branch will not be accessed anymore. In case the user creates a new branch and performs commits o that branch, and then tries to delete it, Git will warn the user about dangling commits (i.e., commits that do not belong to any branch). In case the user forces deleting the branch label, all the content produced in the branch will be dangled and garbage collected eventually. To delete a branch, run the command:
+
+```
+$ git branch -d <name_of_branch>
+```
+In case of dangling commits, you can force branch delete using the command:
+
+```
+$ git branch -D <name_of_branch>
+```
 
 
 ### Questions
