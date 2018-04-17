@@ -206,6 +206,19 @@ In case of dangling commits, you can force branch delete using the command:
 $ git branch -D <name_of_branch>
 ```
 
+Undoing an accidental branch delete using ``git reflog``. ``git reflog`` returns a *local* list of recent HEAD commits:
+
+```
+$ git branch -D featureX
+Deleted branch featureX (was 942c36f)
+
+$ git reflog
+942c36f (HEAD -> master) HEAD@{0}: checkout: mobing from featureX to master
+**434dfa0 HEAD@{1}: commit: added featureX**
+942c36f (HEAD -> master) HEAD@{2}: checkout: moving from master to featureX 
+
+$ git checkout -b featureX 434dfa0
+**Switched to a new branch 'featureX'**
 
 ### Questions
 
