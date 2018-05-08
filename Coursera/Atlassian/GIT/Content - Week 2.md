@@ -270,6 +270,46 @@ Follow the steps to do a fast-forward merge:
 - Merge `featureX` branch
 - Delete `featureX` branch
 
+First, check the log to see both branches:
+
+```
+$ git log --oneline --graph --all
+* 5046c75 (HEAD -> feature2) added feature 2
+* fbadd75 (master) added feature 1
+```
+
+Then, we check out the `master` branch
+
+```
+$ git ckeckout master
+Switched to branch 'master'
+```
+
+We then, execute the merge of branch `feature2`
+
+```
+git merge feature2
+Updating fbadd75..5046c75
+Fast-forward
+  fileA.txt | 1 +
+  1 file changed, 1 insertion(+)
+```
+
+We can see now that the `feature2` branch was merged into the `master` branch
+
+```
+$ git log --oneline --graph --all
+* 5046c75 (HEAD -> master, feature2) added feature 2
+* fbadd75 (master) added feature 1
+```
+
+Finally, we delete the `feature2` branch
+
+```
+$ git branch -d feature2
+Deleted branch feature2 (was 5046c75).
+```
+
 The final result is linear since there is not another commits in parallel.
 
 **Merge commit**: Combines the commits at the tips of the merged branches and places the result in the merge commit. A merge commit always have multiple parents.
@@ -281,6 +321,59 @@ Performing a merge commit is similar to perform a fast-forward merge, with the f
 - Checkout `master` branch
 - Merge `featureX` branch
 - Delete `featureX` branch
+
+First, check the log to see both branches:
+
+```
+$ git log --oneline --graph --all
+* 5046c75 (HEAD -> feature2) added feature 2
+* fbadd75 (master) added feature 1
+```
+
+Then, we check out the `master` branch
+
+```
+$ git ckeckout master
+Switched to branch 'master'
+```
+
+We then, execute the merge of branch `feature2`
+
+```
+git merge feature2
+Updating fbadd75..5046c75
+Fast-forward
+  fileA.txt | 1 +
+  1 file changed, 1 insertion(+)
+```
+
+In some cases we can perform a merge commit as it was a fast-forward merge. In order to do this, we have to add to our merge the ``--no-ff`` flag.
+
+```
+$ git merge --no-ff feature2
+# opens editor to edit merge message
+Merge made by the 'recursive' strategy.
+  fileA.txt | 1 +
+  1 file changed, 1 insertion(+)
+```
+
+We can see now that the `feature2` branch was merged into the `master` branch
+
+```
+$ git log --oneline --graph --all
+*   efaa6ff (HEAD -> master) Merge branch 'feature2'
+|\
+| * 804772b (feature2) added feature 2
+|/
+* 9323a1d added feature 1
+```
+
+Finally, we delete the `feature2` branch
+
+```
+$ git branch -d feature2
+Deleted branch feature2 (was 5046c75).
+```
 
 ![How to Merge commit](images/howto_merge_commit.png)
 
