@@ -247,3 +247,60 @@ Which one of these statements is true?
 - [x] Dangling commits will eventually be garbage collected.
 - [ ] Dangling commits have an associated branch label.
 - [ ] Dangling commits belong to at least one branch.
+
+---
+## Merging
+
+### Notes
+
+Many types of merges:
+
+- Fast-forward merge
+- Merge commit
+- Squash merge
+- Rebase
+
+**Fast-forward merge**: Moves the base branch label to the tip of the topic branch. This type of merge is possible if no other commits have been made to the base branch since branching.
+
+![Fast-forward merge](images/fastforward_merge.png)
+
+Follow the steps to do a fast-forward merge:
+
+- Checkout `master` branch
+- Merge `featureX` branch
+- Delete `featureX` branch
+
+The final result is linear since there is not another commits in parallel.
+
+**Merge commit**: Combines the commits at the tips of the merged branches and places the result in the merge commit. A merge commit always have multiple parents.
+
+![Merge commit](images/merge_commit.png)
+
+Performing a merge commit is similar to perform a fast-forward merge, with the following steps:
+
+- Checkout `master` branch
+- Merge `featureX` branch
+- Delete `featureX` branch
+
+![How to Merge commit](images/howto_merge_commit.png)
+
+
+### Questions
+
+![merging](images/merge_q1.png)
+Which one of the following statements about the diagram is true?
+- [ ] Commit M does not know about the work of feature X.
+- [ ] The work of feature X is included in commit A.
+- [x] Commit B belongs to two branches.
+
+![merging](images/merge_q2.png)
+Assume that you have this commit graph. Which one of the following statements is true?
+- [ ] Commit A contains the work of featureX.
+- [x] The featureX branch can not be fast-forward merged.
+- [ ] Commits C and B belong to the featureX and master branches.
+
+![merging](images/merge_q3.png)
+Which one of the statements about this commit graph is true?
+- [x] The master branch contains all of the commits shown.
+- [ ] The project files in commits C and E are exactly the same.
+- [ ] If you delete the featureX label, commits B and C will eventually be garbage-collected.
