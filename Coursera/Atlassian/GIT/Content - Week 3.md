@@ -2,9 +2,9 @@
 
 ## Resolving Merge Conflicts
 
-If you perform a merge with a merge commit, Git takes on the responsibility of combining the work of multiple branches and placing the result into a single merge commit. Git will try to do this automatically. However, there are cases where multiple branches make different changes to the same part of a file. In that case, a merge conflict occurs and a person needs to make a decision on [how to resolve it](https://git-scm.com/docs/merge-strategies)
+If you perform a merge with a merge commit, Git takes on the responsibility of combining the work of multiple branches and placing the result into a single merge commit. Git will try to do this automatically. However, there are cases where multiple branches make different changes to the same part of a file. In that case, a merge conflict occurs and a person needs to make a decision on [how to resolve it](https://git-scm.com/docs/merge-strategies).
 
-![Merge Conflicts](images/merge_conflict.png)
+![Merge Conflicts](images/merge_conflict.png){ width=80% }
 
 ### Notes
 
@@ -100,7 +100,7 @@ If a merge conflict occurs, which one of the following statements is true?
 
 A tracking branch is a local branch that represents a remote branch. Locally, a tracking branch name starts with the remote name, then a forward slash, and then the branch name. If you clone a repository, they'll have a default local tracking branch.
 
-![Tracking Branches](images/tracking_branch.png)
+![Tracking Branches](images/tracking_branch.png){ width=80% }
 
 ### Notes
 
@@ -160,10 +160,117 @@ Which one of the following statements about tracking branches is true?
 - [x] If you create a commit, your local branch will be ahead of the tracking branch.
 - [ ] A tracking branch is always in synch with the associated remote branch.
 - [ ] A tracking branch is always in synch with the associated local branch.
+
 ---
-## Fetc
+## Fetch, Pull and Push
 
 ### Notes
 
+Most commands in Git only interact with the local repository. However, these four commands, which we will call network commands, communicate with the remote repository.
+
+- **Clone**: Copies a remote repository
+- **Fetch**: Retrieves new objects and references from the remote repository
+- **Pull**: Fetches and merges commits locally
+- **Push**: Adds new objects and references to the remote repository
+
+[**Fetch**](https://git-scm.com/docs/git-fetch) retrieves new objects from the remote repository - tracking branches are updated. This allows to check commits and changes in the remote repository without merging them into the local repository. In the figure below, we can see the local repository before fetch and the remote repository containing a commit C not present in the local repository. After fetch, the current status of the remote repository appears in the tracking branch but the master keeps in the last local commit B.
+
+![Fetching commit](images/fetching_commit.png){ width=80% }
+
+Checking and fetching a repository
+
+```
+$ git log origin/master --oneline --graph --all
+* 482b095 (HEAD -> master, origin/master) add feature 1
+
+$ git fetch
+remote: Counting objects: 3, done.
+remote: Compressing objects: 100% (3/3) done.
+remote: Total 3 (delta 1), reused 0 (delta 0)
+Unpacking objects: 100% (3/3) done.
+From https://bitbucket.org/user/repository
+   482b095..5ced2f3 master -> origin/master
+
+$ git log origin/master --oneline --graph --all
+* 5ced2f3 (origin/master) add feature 2
+* 482b095 (HEAD -> master, origin/master) add feature 1
+```
+
+GIT status will inform you that your current branch is behind the tracking branch
+
+```
+$ git status
+On branch master
+Your branch is behind 'origin master' by 1 commit, and can be fast-forwarded.
+   (use "git pull" to update your local branch)
+nothing to commit, working tree clean
+```
+
+**Pull**: The pull command combines fetch and merge in one command. If objects are fetched, the tracking branch is merged into the current local branch. This is similar to the topic branch merging in to a base branch. The figure below illustrates the local repository before pull and a remote repository containing a commit ahead of the local repository. After the pull command, the local repository is updated and the head is set to the last commit of the remote repository. 
+
+![Pull](images/pull_merge.png){ width=80% }
+
+Running a pull command
+
+```
+$ git pull
+Updating a65b42..48b095
+Fast-forward
+   fileA.txt | 2 +-
+   1 file changed, 1 insertion(+), 1 deletion(-)
+```
+
+GIT pull merging options:
+
+- `--ff` (default): fast-forward if possible, otherwise perform a merge commit
+- `--no-ff`: always include a merge commit
+- `--ff-only`: cancel instead of doing a merge commit
+- `--rebase [--preserve-merges]`: discussed later
+
+In the next figure, we can see when a local repository contains different commits to the remote repository (local contains the commit D and remote contains the commit C. When performing the pull command, the local repository is updated with the information from the remote by first fetching the content of the remote repository and then merging the commit into the local repository, keeping `origin/master` syncronized with the remote repository. 
+
+![Pull with merge](images/pull_with_merge.png){ width=80% }
+
+GIT pull with a fast-forward merge
+
+```
+$ git status
+On branch master
+Your branch is behind 'origin master' by 1 commit, and can be fast-forwarded.
+   (use "git pull" to update your local branch)
+nothing to commit, working tree clean
+
+$ get pull
+Updating 667fd0d..53d1b4b
+Fast-forward
+   fileA.txt | 1 +-
+   1 file changed, 1 insertion(+)
+
+$ git log --oneline
+53d1b4d (HEAD -> master, origin/master) added feature 3
+667fd0d added feature 2
+5d5e128 initial commit
+```
 
 ### Questions
+
+Which one of these tasks require a connection to another Git repository?
+- [x] Cloning a repository.
+- [ ] Checking out a different branch.
+- [ ] Creating a commit.
+
+Which one of the following statements is true?
+- [ ] A fetch may result in a merge conflict.
+- [x] A fetch may update your tracking branch.
+- [ ] A fetch may update your local branch.
+
+Which one of the following statements about the pull command is true?
+- [ ] It fetches objects, then merges the current branch into the tracking branch.
+- [ ] It always creates a merge commit.
+- [x] It fetches objects, then merges the tracking branch into the current local branch.
+
+Which one of these statements is true?
+- [ ] Pushing updates the local branch tip.
+- [ ] You must execute a pull before you push.
+- [x] Executing a fetch or pull before a push is suggested.
+
