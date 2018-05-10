@@ -389,14 +389,14 @@ Which one of the following statements about the diagram is true?
 - [ ] The work of feature X is included in commit A.
 - [x] Commit B belongs to two branches.
 
-<img src="images/merge_q2.png" width="500"/>
+<img src="images/merge_q2.png" width="350"/>
 
 Assume that you have this commit graph. Which one of the following statements is true?
 - [ ] Commit A contains the work of featureX.
 - [x] The featureX branch can not be fast-forward merged.
 - [ ] Commits C and B belong to the featureX and master branches.
 
-<img src="images/merge_q3.png" width="500"/>
+<img src="images/merge_q3.png" width="400"/>
 
 Which one of the statements about this commit graph is true?
 - [x] The master branch contains all of the commits shown.
