@@ -4,7 +4,7 @@
 
 If you perform a merge with a merge commit, Git takes on the responsibility of combining the work of multiple branches and placing the result into a single merge commit. Git will try to do this automatically. However, there are cases where multiple branches make different changes to the same part of a file. In that case, a merge conflict occurs and a person needs to make a decision on [how to resolve it](https://git-scm.com/docs/merge-strategies).
 
-<center><img src="images/merge_conflict.png" width="800"/></center>
+<img src="images/merge_conflict.png" width="700"/>
 
 ### Notes
 
@@ -100,7 +100,7 @@ If a merge conflict occurs, which one of the following statements is true?
 
 A tracking branch is a local branch that represents a remote branch. Locally, a tracking branch name starts with the remote name, then a forward slash, and then the branch name. If you clone a repository, they'll have a default local tracking branch.
 
-<center><img src="images/tracking_branch.png" width="800"/></center>
+<img src="images/tracking_branch.png" width="700"/>
 
 ### Notes
 
@@ -175,7 +175,7 @@ Most commands in Git only interact with the local repository. However, these fou
 
 [**Fetch**](https://git-scm.com/docs/git-fetch) retrieves new objects from the remote repository - tracking branches are updated. This allows to check commits and changes in the remote repository without merging them into the local repository. In the figure below, we can see the local repository before fetch and the remote repository containing a commit C not present in the local repository. After fetch, the current status of the remote repository appears in the tracking branch but the master keeps in the last local commit B.
 
-<center><img src="images/fetching_commit.png" width="800"/></center>
+<img src="images/fetching_commit.png" width="700"/>
 
 Checking and fetching a repository
 
@@ -208,7 +208,7 @@ nothing to commit, working tree clean
 
 **Pull**: The pull command combines fetch and merge in one command. If objects are fetched, the tracking branch is merged into the current local branch. This is similar to the topic branch merging in to a base branch. The figure below illustrates the local repository before pull and a remote repository containing a commit ahead of the local repository. After the pull command, the local repository is updated and the head is set to the last commit of the remote repository. 
 
-<center><img src="images/pull_merge.png" width="800"/></center>
+<img src="images/pull_merge.png" width="700"/>
 
 Running a pull command
 
@@ -229,7 +229,7 @@ GIT pull merging options:
 
 In the next figure, we can see when a local repository contains different commits to the remote repository (local contains the commit D and remote contains the commit C. When performing the pull command, the local repository is updated with the information from the remote by first fetching the content of the remote repository and then merging the commit into the local repository, keeping `origin/master` syncronized with the remote repository. 
 
-<center><img src="images/pull_with_merge.png" width="800"/></center>
+<img src="images/pull_with_merge.png" width="700"/>
 
 GIT pull with a fast-forward merge
 
