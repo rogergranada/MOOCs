@@ -219,6 +219,7 @@ $ git reflog
 
 $ git checkout -b featureX 434dfa0
 **Switched to a new branch 'featureX'**
+```
 
 ### Questions
 
