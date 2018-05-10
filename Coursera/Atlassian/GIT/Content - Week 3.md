@@ -3,6 +3,9 @@
 ## Resolving Merge Conflicts
 
 If you perform a merge with a merge commit, Git takes on the responsibility of combining the work of multiple branches and placing the result into a single merge commit. Git will try to do this automatically. However, there are cases where multiple branches make different changes to the same part of a file. In that case, a merge conflict occurs and a person needs to make a decision on [how to resolve it](https://git-scm.com/docs/merge-strategies)
+
+![Merge Conflicts](images/merge_conflict.png)
+
 ### Notes
 
 Merge conflicts occur when two branches change the same hunk. When changes occur in different parts (hunks) of a file, git manages to automatically merge changes. Basic steps to resolve a merge conflict:
@@ -95,12 +98,68 @@ If a merge conflict occurs, which one of the following statements is true?
 ---
 ## Tracking Branches
 
+A tracking branch is a local branch that represents a remote branch. Locally, a tracking branch name starts with the remote name, then a forward slash, and then the branch name. If you clone a repository, they'll have a default local tracking branch.
+
+![Tracking Branches](images/tracking_branch.png)
+
 ### Notes
 
+Display local and tracking branch names, where `remotes/origin/HEAD` specifies the default remote tracking branch (symbolic reference).
+
+```
+$ git branch all
+* master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/master
+```
+
+Checking the commits in our `master` branch:
+
+```
+$ git log origin/master --oneline
+215b50a (origin/master, origin/HEAD) add feature 1
+f92ad48 (HEAD -> master) add fileA.txt
+
+$ git log origin --oneline
+215b50a (origin/master, origin/HEAD) add feature 1
+f92ad48 (HEAD -> master) add fileA.txt
+```
+
+Changing the default remote tracking branch with `git remote set-head <remote> <branch>`
+
+```
+$ git branch --all
+* develop
+  master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/develop
+  remotes/origin/master
+
+$ git remote set-head origin develop
+$ git branch --all
+* develop
+  master
+  remotes/origin/HEAD -> origin/develop
+  remotes/origin/develop
+  remotes/origin/master
+```
 
 ### Questions
 
+Which one of the following statements about tracking branches is true?
+- [x] A tracking branch is named <remote>/<branch>.
+- [ ] A tracking branch is always in synch with its corresponding remote branch.
+- [ ] A tracking branch is always in synch with its corresponding local branch.
 
+Which one of the following statements is true?
+- [x] When you clone a repository, the default branch is set up as a tracking branch.
+- [ ] All local branches automatically have tracking branches.
+- [ ] Tracking branches reside only on the remote repository.
+
+Which one of the following statements about tracking branches is true?
+- [x] If you create a commit, your local branch will be ahead of the tracking branch.
+- [ ] A tracking branch is always in synch with the associated remote branch.
+- [ ] A tracking branch is always in synch with the associated local branch.
 ---
 ## Fetc
 
