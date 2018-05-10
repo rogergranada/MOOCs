@@ -224,6 +224,7 @@ $ git checkout -b featureX 434dfa0
 ### Questions
 
 ![branches](images/branches.png)
+
 In this example, which commits belong to the featureX branch?
 - [ ] Commits D and C only.
 - [x] Commits D, C, B and A.
@@ -382,18 +383,21 @@ Deleted branch feature2 (was 5046c75).
 ### Questions
 
 ![merging](images/merge_q1.png)
+
 Which one of the following statements about the diagram is true?
 - [ ] Commit M does not know about the work of feature X.
 - [ ] The work of feature X is included in commit A.
 - [x] Commit B belongs to two branches.
 
 ![merging](images/merge_q2.png)
+
 Assume that you have this commit graph. Which one of the following statements is true?
 - [ ] Commit A contains the work of featureX.
 - [x] The featureX branch can not be fast-forward merged.
 - [ ] Commits C and B belong to the featureX and master branches.
 
 ![merging](images/merge_q3.png)
+
 Which one of the statements about this commit graph is true?
 - [x] The master branch contains all of the commits shown.
 - [ ] The project files in commits C and E are exactly the same.
