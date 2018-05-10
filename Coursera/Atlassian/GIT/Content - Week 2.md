@@ -382,7 +382,7 @@ Deleted branch feature2 (was 5046c75).
 
 ### Questions
 
-![merging](images/merge_q1.png)
+<img src="images/merge_q1.png" width="400"/>
 
 Which one of the following statements about the diagram is true?
 - [ ] Commit M does not know about the work of feature X.
