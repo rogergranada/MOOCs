@@ -4,7 +4,7 @@
 
 If you perform a merge with a merge commit, Git takes on the responsibility of combining the work of multiple branches and placing the result into a single merge commit. Git will try to do this automatically. However, there are cases where multiple branches make different changes to the same part of a file. In that case, a merge conflict occurs and a person needs to make a decision on [how to resolve it](https://git-scm.com/docs/merge-strategies).
 
-<img src="images/merge_conflict.png" style="width:400px;"/>
+<img src="images/merge_conflict.png" width="200" />
 
 ### Notes
 
