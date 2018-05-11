@@ -357,3 +357,80 @@ After resolving a merge conflict during a rebase, which one of these should you 
 - [x] Continue the rebase.
 - [ ] Create a commit.
 - [ ] Abort the rebase.
+
+
+---
+## Rewriting History
+
+### Notes
+
+**Ammending a Commit**: You can change the most recent commit by changing the commit message or changing the project files. This creates a new SHA-1 (rewrites history)
+
+```
+$ git add fileC.txt
+$ git comit -m 'ad fileC.txt'
+(master 43f30b5) ad fileC.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 fileC.txt
+
+$ git commit --amend -m 'add fileC.txt'
+(master d70eb1f) add fileC.txt
+ Date: ...
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 fileC.txt
+```
+
+Updating the content of a file, without changing the message by using `--no-edit`:
+
+```
+git log --oneline -l
+d70eb1f (HEAD -> master) add fileC.txt
+$ echo "some text" > fileC.txt
+$ git add fileC.txt
+$ git commit --amend --no-edit 
+ (master 9cd5d96) add fileC.txt
+ Date: ...
+ 1 file changed, 1 insertion(+)
+ create mode 100644 fileC.txt
+```
+
+**Interactive Rebase**: It lets you edit multiple commits  
+- The commits can belong to any branch
+- The commit history is changed- do not use for shared commits
+- Commits after the selected commit can be modified
+
+In order to use the interactive rebase, use the `-i` option as `git rebase -i <after-this-commit>`
+
+```
+$ git log --oneline --graph
+* 2bd5ca3 (HEAD -> master) add fileC.txt
+* cf0ffa7 add fileB.txt with typo
+* 0e917b6 add fileA.txt
+
+$ git rebase -i 0e91
+# <perform changes in files>
+
+$ git add .
+$ git commit --amend -m 'add fileB.txt'
+(detached HEAD 2a91c04) add fileB.txt
+ 1 changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 fileB.txt
+
+$ git rebase --continue
+Successfully rebased and updated refs/head/master
+```
+
+Squash commit: Combine this commit with the older commit, creating a single commit (the work of both commits is included)
+Delete commit: No changes from this commit are applied. The diff is thrown out, the work of this commit is lost and there's a greater chance of a merge conflict.
+
+### Questions
+
+Which one of these statements about amending a commit is true?
+- [ ] Amending a commit changes its SHA-1 only if you change its commit message.
+- [ ] Amending a commit changes its SHA-1 only if you add a file to the commit.
+- [x] Amending a commit always changes its SHA-1.
+
+Which one of these statements about interactive rebase is true?
+- [x] The children of the specified/selected commit can be modified.
+- [ ] Interactive rebase involves at least two branches.
+- [ ] Interactive rebase retains the commit history.
