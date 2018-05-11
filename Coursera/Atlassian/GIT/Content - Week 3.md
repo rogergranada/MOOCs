@@ -423,6 +423,12 @@ Successfully rebased and updated refs/head/master
 Squash commit: Combine this commit with the older commit, creating a single commit (the work of both commits is included)
 Delete commit: No changes from this commit are applied. The diff is thrown out, the work of this commit is lost and there's a greater chance of a merge conflict.
 
+You an also squash merge with the fast forward, you again check out the master branch. You execute git merge with the squash option and featureX branch specified as an argument. You execute git commit and the merge will automatically be fast forwarded. You can then delete the featureX branch. 
+
+<img src="images/squash_merge.png" width="700"/>
+
+You can see, before the merge, we had three commits on two branches and after the squash merge we have two commits on the single master branch. Commits C and C prime contain the same project files, there is just a different commit history. 
+
 ### Questions
 
 Which one of these statements about amending a commit is true?
