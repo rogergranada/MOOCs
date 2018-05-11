@@ -440,3 +440,8 @@ Which one of these statements about interactive rebase is true?
 - [x] The children of the specified/selected commit can be modified.
 - [ ] Interactive rebase involves at least two branches.
 - [ ] Interactive rebase retains the commit history.
+
+What is the result of a "git merge --squash featureX" command?
+- [ ] A single linear commit.
+- [ ] Modified file(s) in the working tree.
+- [x] File(s) added to the staging area.
