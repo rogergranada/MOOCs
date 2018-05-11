@@ -274,3 +274,86 @@ Which one of these statements is true?
 - [ ] You must execute a pull before you push.
 - [x] Executing a fetch or pull before a push is suggested.
 
+---
+## Rebasing
+
+**Warning**: The topics discussed here rewrite the commit history, so this should be done with caution. There's a general rule related to rebase, do not rewrite history that has been shared with others. If you've been working locally, or if you know that no one else has used your branch, you can safely rebase it. 
+
+### Notes
+
+A rebase moves commits to a new parent, or a base. If we look at the example on the left, we have a situation that would typically involve a merge commit, because commit D has been made after the featureX branch was made. However, there is another option, and that is to rebase. What rebasing does is take commit B and C, and moves them to a new parent, commit D. The result is that you no longer need a merge commit, and the merge can be fast-forwarded. Because the commits have been moved, they are reapplied on top of the new commit. This creates a different ancestor chain and, as a result, each of the commit IDs change. So in this example, commit B changes to B prime, and commit C changes to C prime. You can see that this is necessary because before the rebase, commit B's parent was A, and after the rebase, commit B prime's parent is D. 
+
+<img src="images/rebase.png" width="700"/>
+
+Types of rebase:
+
+- Regular Rebase
+- Interactive Rebase
+ 
+**Diffs**: Each commit contains a snapshot of the complete project. GIT can calculate the difference between commits, also known as a *diff* or a *patch*. When rebasing, GIT applies the diff to the new parent commit -- this is called "reapplying commits".
+
+<img src="images/reapplying_commits.png" width="700"/>
+
+Rebasing pros and cons:
+
+**Pros:**  
+- You can incorporate changes from the parent branch
+    * You can use the new features/bugfixes
+    * Tests are on more current code
+    * It makes the eventual merge into master fast-forwardable
+- Avoids "unnecessary" commits
+    * It allows you to shape/define clean commit histories
+
+**Cons:**  
+- Merge conflicts may need to be solved
+- It can cause problems if your commits have been shared
+- You are not preserving the commit history
+
+Executing a rebase:  
+- Checkout featureX branch
+- Rebase onto the tip of the master branch  
+    a. CONFLICT: both modified fileA.txt
+- Fix fileA.txt
+- Add fileA.txt
+- Continue rebase
+
+In command line, you can execute `git rebase <upstream> <branch>`, to checkout `<branch>` and changes its parent `<upstream>`:
+
+```
+$ git checkout featureX
+$ git rebase master
+
+# equivalent to:
+$ git rebase master featureX
+```
+If having a conflict while rebasing:
+
+```
+$ git checkout featureX
+$ git rebase master
+    a. CONFLICT
+$ git status
+    a. Both modified fileA.txt
+# Fix fileA.txt
+$ git add fileA.txt
+$ git rebase --continue
+```
+
+If you want to abort a rebase in case of a conflict, you can run the command `git rebase --abort`.
+
+### Questions
+
+Which one of the following statements is true?
+- [ ] Rebasing can not result in a merge conflict.
+- [x] Rebasing is a form of merge.
+- [ ] Rebasing retains SHA-1 IDs of commits.
+
+Which one of these is a valid way to rebase the commits of a feature branch?
+- [ ] Checkout the feature branch. Merge the master branch.
+- [x] Checkout the feature branch. Rebase onto the base branch.
+- [ ] Checkout the base branch. Rebase onto the feature branch.
+
+After resolving a merge conflict during a rebase, which one of these should you do?
+- [x] Continue the rebase.
+- [ ] Create a commit.
+- [ ] Abort the rebase.
