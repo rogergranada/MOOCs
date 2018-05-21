@@ -1,6 +1,6 @@
 # Coursera : Version Control with GIT
 
-Status: :heavy_check_mark: **Finished**
+![Status](https://img.shields.io/badge/Status-Finished-green.svg)
 
 This folder contains codes to the [Version Control with GIT](https://www.coursera.org/learn/version-control-with-git/) course by Steve Byrnes. According to the description presented in the web site:
 
