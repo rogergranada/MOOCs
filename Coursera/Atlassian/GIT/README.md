@@ -1,6 +1,6 @@
 # Coursera : Version Control with GIT
 
-Status: :white_check_mark: **Finished**
+Status: :heavy_check_mark: **Finished**
 
 This folder contains codes to the [Version Control with GIT](https://www.coursera.org/learn/version-control-with-git/) course by Steve Byrnes. According to the description presented in the web site:
 
