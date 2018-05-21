@@ -12,3 +12,4 @@ This folder contains codes to the [Version Control with GIT](https://www.courser
 > 
 > You can watch the videos and take the quizzes from your phone if you want, but the hands-on labs require you to have a Windows or Mac computer. If you use the command line path through the course, you can also use Linux. This course uses Bitbucket (bitbucket.org) as the hosted provider for remote Git repositories. Bitbucket is free for teams of up to 5 people, including private repositories. However, most of the knowledge that you gain in this course applies to Git itself, and you can apply this knowledge to other hosted Git providers (such as GitHub). This course tries to be as concise as possible. It will probably take you about 5-10 hours to go through one of the two paths, but your mileage may vary.
 
+
