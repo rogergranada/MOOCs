@@ -1,5 +1,7 @@
 # Coursera : Neural Networks and Deep Learning
 
+![Status](https://img.shields.io/badge/Status-In%20progress-yellow.svg)
+
 This folder contains codes to the [Deep Learning](https://www.coursera.org/learn/neural-networks-deep-learning) course by Andrew Ng. According to the description presented in the web site:
 
 > If you want to break into cutting-edge AI, this course will help you do so. Deep learning engineers are highly sought after, and mastering deep learning will give you numerous new career opportunities. Deep learning is also a new "superpower" that will let you build AI systems that just weren't possible a few years ago. 
