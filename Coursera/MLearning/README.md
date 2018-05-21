@@ -1,5 +1,7 @@
 # Coursera : Machine Learning
 
+![Status](https://img.shields.io/badge/Status-Finished-green.svg)
+
 This folder contains codes to the [Machine Learning](https://www.coursera.org/learn/machine-learning/) course by Andrew Ng. According to the description presented in the web site:
 
 > Machine learning is the science of getting computers to act without being explicitly programmed. In the past decade, machine learning has given us self-driving cars, practical speech recognition, effective web search, and a vastly improved understanding of the human genome. Machine learning is so pervasive today that you probably use it dozens of times a day without knowing it. Many researchers also think it is the best way to make progress towards human-level AI. In this class, you will learn about the most effective machine learning techniques, and gain practice implementing them and getting them to work for yourself. More importantly, you'll learn about not only the theoretical underpinnings of learning, but also gain the practical know-how needed to quickly and powerfully apply these techniques to new problems. Finally, you'll learn about some of Silicon Valley's best practices in innovation as it pertains to machine learning and AI.
@@ -8,4 +10,4 @@ This folder contains codes to the [Machine Learning](https://www.coursera.org/le
 
 # Setting up the environment
 
-Before running codes, download data from: https://goo.gl/vCq9gP
+Before running codes, download data from: [Drive](https://goo.gl/vCq9gP)
