@@ -1,5 +1,7 @@
 # edX : AdelaideX - Introduction to Project Management
 
+![Status](https://img.shields.io/badge/Status-Finished-green.svg)
+
 This folder contains codes to the [Introduction to Project Management](https://www.edx.org/course/introduction-project-management-adelaidex-project101x-1) course by Frank Schultmann. 
 
 [![Video link](https://img.youtube.com/vi/5_Q_qmvt8RM/0.jpg)](https://youtu.be/5_Q_qmvt8RM "Introduction")
