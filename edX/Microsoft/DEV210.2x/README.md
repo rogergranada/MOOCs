@@ -1,5 +1,7 @@
 # edX : Intermediate C++
 
+![Status](https://img.shields.io/badge/Status-Finished-green.svg)
+
 This folder contains codes to the [Intermediate C++](https://www.edx.org/course/intermediate-c-microsoft-dev210-2x-0) course by Gerry O'Brien from Microsoft. 
 
 ![Logo from course](https://prod-discovery.edx-cdn.org/media/course/image/c93f8bcf-d2dd-48ae-940e-aeea8d263725-36d95bbed5f1.small.jpg)
