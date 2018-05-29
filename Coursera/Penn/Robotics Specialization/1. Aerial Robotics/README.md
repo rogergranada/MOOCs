@@ -1,6 +1,6 @@
 # Coursera : Penn - Robotics: Aerial Robotics
 
-![Status](https://raw.githubusercontent.com/rogergranada/MOOCs/master/_utils/inprogress.svg)
+<img alt="Status" src="https://raw.githubusercontent.com/rogergranada/MOOCs/master/_utils/inprogress.svg">
 
 This folder contains codes to the [Aerial Robotics](https://www.coursera.org/learn/robotics-flight) course by Vijay Kumar. 
 
