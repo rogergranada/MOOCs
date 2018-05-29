@@ -4,7 +4,7 @@
 
 This folder contains codes to the [Aerial Robotics](https://www.coursera.org/learn/robotics-flight) course by Vijay Kumar. 
 
-![Quadrotor](images/aerial_robotics.png)
+<img alt="Logo" src="images/aerial_robotics.png" width="300">
 
 According to the description presented in the web site:
 
