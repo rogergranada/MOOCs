@@ -1,6 +1,6 @@
 # Coursera : Neural Networks and Deep Learning
 
-![Status](https://img.shields.io/badge/Status-In%20progress-yellow.svg)
+<img alt="Status" src="https://cdn.rawgit.com/rogergranada/MOOCs/master/_utils/inprogress.svg">
 
 This folder contains codes to the [Deep Learning](https://www.coursera.org/learn/neural-networks-deep-learning) course by Andrew Ng. According to the description presented in the web site:
 
