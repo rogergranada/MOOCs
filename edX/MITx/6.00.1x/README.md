@@ -1,5 +1,7 @@
 # edX : MIT 6.00.1x - Introduction to Computer Science and Programming Using Python
 
+<img alt="Status" src="https://cdn.rawgit.com/rogergranada/MOOCs/master/_utils/finished.svg">
+
 This folder contains codes to the [Introduction to Computer Science and Programming Using Python](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-11) course by John Guttag and Eric Grimson. 
 
 [![Video link](https://img.youtube.com/vi/ww2BdhILIio/0.jpg)](https://www.youtube.com/watch?v=ww2BdhILIio "Introduction")
