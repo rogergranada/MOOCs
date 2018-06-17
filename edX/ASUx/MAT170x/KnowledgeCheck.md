@@ -12,5 +12,3 @@ $ y = 16 $
 The **domain** of a function is the complete set of possible values of the independent variable, i.e., the set of all possible $x$-values which will make the function "work", and will output real y-values.
 
 The **range** of a function is the complete set of all possible resulting values of the dependent variable after we have substituted the domain, i.e., the resulting $y$-values we get after substituting all the possible x-values.
-
-Use a bracket (sometimes called a square bracket) to indicate that the endpoint is included in the interval, a parenthesis (sometimes called a round bracket) to indicate that it is not. 
