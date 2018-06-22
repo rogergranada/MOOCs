@@ -1,5 +1,7 @@
 # edX : ASUx MAT170x - Precalculus
 
+<img alt="Status" src="https://cdn.rawgit.com/rogergranada/MOOCs/master/_utils/inprogress.svg">
+
 This folder contains codes to the [Precalculus](https://www.edx.org/course/precalculus-asux-mat170x) course by Adrian Sannier. 
 
 [![Video link](https://img.youtube.com/vi/esVsF9FGmLA/0.jpg)](https://www.youtube.com/watch?v=esVsF9FGmLA "Introduction")
