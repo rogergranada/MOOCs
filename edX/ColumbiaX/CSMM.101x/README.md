@@ -1,5 +1,7 @@
 # edX : ColumbiaX - CSMM.101x Artificial Intelligence (AI)
 
+<img alt="Status" src="https://cdn.rawgit.com/rogergranada/MOOCs/master/_utils/inprogress.svg">
+
 This folder contains codes to the [Artificial Intelligence (AI)](https://www.edx.org/course/artificial-intelligence-ai-columbiax-csmm-101x-2) course by Professor Ansaf Salleb-Aouissi from Columbia University. 
 
 ![Logo from course](https://www.edx.org/sites/default/files/course/image/promoted/course_image_csmm_101x_378x225.jpg)
