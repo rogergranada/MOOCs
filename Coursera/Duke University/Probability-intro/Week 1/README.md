@@ -138,7 +138,7 @@ A study is designed to test the effect of light level and noise level on exam pe
 
 <img align="center" width="500" src="images/random_assignment.png"/>
 
-To wripe up:
+To wrap up:
 
 <img align="center" width="500" src="images/types_experiments.png"/>
 
