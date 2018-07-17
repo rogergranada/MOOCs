@@ -1,4 +1,6 @@
-In Week 2 of Introduction to Probability and Data, we delve into numerical and categorical data in more depth, and introduce inference. 
+# Week 2 : Exploratory Data Analysis and Introduction to Inference
+
+In this week, we delve into numerical and categorical data in more depth, and introduce inference. 
 
 ### Objectives
 
@@ -12,12 +14,13 @@ In Week 2 of Introduction to Probability and Data, we delve into numerical and c
 6) Define a robust statistic (e.g. median, IQR) as a statistic that is not heavily affected by skewness and extreme outliers, and determine when such statistics are more appropriate measures of center and spread compared to other similar statistics.  
 7) Recognize when transformations (e.g. log) can make the distribution of data more symmetric, and hence easier to model.  
 
-The week is composed by four parts:
+### How it is divided
+
+The week is composed by three parts:
 
 [Exploring Numerical Data](1.%20Exploring%20Numerical%20Data.ipynb)  
 
-[Exploring Categorical Data and Introduction to Inference]()  
+[Exploring Categorical Data and Introduction to Inference](2.%20Exploring%20Categorical%20Variables.ipynb)  
 
-[Strengthen Your Understanding]()  
+[Strengthen Your Understanding](Exercises.ipynb)  
 
-[Assignments]()  
