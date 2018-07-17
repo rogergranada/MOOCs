@@ -29,5 +29,9 @@ The week is composed by two parts:
 
 [Strengthen Your Understanding](Exercises.ipynb)  
 
+Extra:
+
+[Intro to R](Intro%20to%20R%20Coursera.ipynb)
+
 
 
