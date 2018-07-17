@@ -25,7 +25,7 @@ This week, we learn about designing studies and visualizations.
 
 The week is composed by two parts:
 
-[Exploring Numerical Data](1.%20Designing%20Studies.ipynb)  
+[Designing Studies](1.%20Designing%20Studies.ipynb)  
 
 [Strengthen Your Understanding](Exercises.ipynb)  
 
