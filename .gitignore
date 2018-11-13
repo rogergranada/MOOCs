@@ -108,3 +108,4 @@ octave-workspace
 *.py~
 *.ipynb~
 *.m~
+*.txt~
