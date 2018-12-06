@@ -1,6 +1,6 @@
 # edX : ColumbiaX - DS101X Statistical Thinking for Data Science and Analytics
 
-<img alt="Status" src="https://cdn.rawgit.com/rogergranada/MOOCs/master/_utils/inprogress.svg">
+<img alt="Status" src="https://cdn.jsdelivr.net/gh/rogergranada/MOOCs/_utils/inprogress.svg">
 
 This folder contains codes to the [Statistical Thinking for Data Science and Analytics](https://www.edx.org/course/statistical-thinking-for-data-science-and-analytics) course by Tian Zheng and others from Columbia University. 
 

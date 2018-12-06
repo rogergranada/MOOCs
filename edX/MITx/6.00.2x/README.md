@@ -1,6 +1,6 @@
 # edX : MIT 6.00.2x - Introduction to Computational Thinking and Data Science
 
-<img alt="Status" src="https://cdn.rawgit.com/rogergranada/MOOCs/master/_utils/finished.svg">
+<img alt="Status" src="https://cdn.jsdelivr.net/gh/rogergranada/MOOCs/_utils/finished.svg">
 
 This folder contains codes to the [Introduction to Computational Thinking and Data Science](https://www.edx.org/course/introduction-computational-thinking-data-mitx-6-00-2x-6/) course by John Guttag and Eric Grimson. 
 
