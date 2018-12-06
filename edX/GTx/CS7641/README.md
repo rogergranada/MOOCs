@@ -1,6 +1,6 @@
 # edX : GTx CS7641 - FA18: Machine Learning
 
-<img alt="Status" src="https://cdn.rawgit.com/rogergranada/MOOCs/master/_utils/inprogress.svg">
+<img alt="Status" src="https://cdn.jsdelivr.net/gh/rogergranada/MOOCs/_utils/inprogress.svg">
 
 This folder contains material of the [Machine Learning](https://www.edx.org/course/machine-learning-gtx-cs7641x-1) course by Charles Isbell. 
 

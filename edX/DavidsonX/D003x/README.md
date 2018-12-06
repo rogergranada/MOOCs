@@ -1,3 +1,3 @@
 # DavidsonX: D003x.1 Applications of Linear Algebra (Part 1)
 
-<img alt="Status" src="https://cdn.rawgit.com/rogergranada/MOOCs/master/_utils/inprogress.svg">
+<img alt="Status" src="https://cdn.jsdelivr.net/gh/rogergranada/MOOCs/_utils/inprogress.svg">

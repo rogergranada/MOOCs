@@ -1,6 +1,6 @@
 # Coursera : Duke University :: Introduction to Probability and Data
 
-<img alt="Status" src="https://cdn.rawgit.com/rogergranada/MOOCs/master/_utils/inprogress.svg">
+<img alt="Status" src="https://cdn.jsdelivr.net/gh/rogergranada/MOOCs/_utils/inprogress.svg">
 
 This folder contains codes to the [Introduction to Probability and Data](https://www.coursera.org/learn/probability-intro/) course by Mine Çetinkaya-Rundel. According to the description presented in the web site:
 

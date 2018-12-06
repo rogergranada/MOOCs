@@ -1,6 +1,6 @@
 # Coursera : Version Control with GIT
 
-<img alt="Status" src="https://cdn.rawgit.com/rogergranada/MOOCs/master/_utils/finished.svg">
+<img alt="Status" src="https://cdn.jsdelivr.net/gh/rogergranada/MOOCs/_utils/finished.svg">
 
 This folder contains codes to the [Version Control with GIT](https://www.coursera.org/learn/version-control-with-git/) course by Steve Byrnes. According to the description presented in the web site:
 

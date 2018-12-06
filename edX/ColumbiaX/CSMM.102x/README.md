@@ -1,6 +1,6 @@
 # edX : ColumbiaX - CSMM.102x Machine Learning
 
-<img alt="Status" src="https://cdn.rawgit.com/rogergranada/MOOCs/master/_utils/inprogress.svg">
+<img alt="Status" src="https://cdn.jsdelivr.net/gh/rogergranada/MOOCs/_utils/inprogress.svg">
 
 This folder contains codes to the [Machine Learning](https://www.edx.org/course/machine-learning-columbiax-csmm-102x-3) course by Professor John W. Paisley from Columbia University. 
 
