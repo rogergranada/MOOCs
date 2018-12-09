@@ -109,3 +109,4 @@ octave-workspace
 *.ipynb~
 *.m~
 *.txt~
+.gitignore~
