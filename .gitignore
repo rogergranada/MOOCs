@@ -110,3 +110,8 @@ octave-workspace
 *.m~
 *.txt~
 .gitignore~
+
+# Software-related data
+.Rhistory
+.RData
+.ipynb_checkpoints/
