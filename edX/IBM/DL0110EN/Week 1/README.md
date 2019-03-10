@@ -2,7 +2,7 @@
 
 Create tensors and calculate gradients using Pytorch.
 
-1. Tensors and Gradients
+1.0 Tensors and Gradients
 - 1.1 Tensors
   - 1.1.1 Tensors in One Dimension
   - 1.1.2 2-Dimensional PyTorch Tensors
