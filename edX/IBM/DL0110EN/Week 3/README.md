@@ -15,4 +15,5 @@
   - 3.3.3 Softmax PyTorch
 
 ---
-Data for examples and problems can be found [here](https://drive.google.com/open?id=1z3xhl32mPuuBwv8CBqfvAS1i1RJdyMPZ).
+- Data for examples can be found [here](https://drive.google.com/open?id=1z3xhl32mPuuBwv8CBqfvAS1i1RJdyMPZ).
+- Data for labs can be found [here](https://drive.google.com/open?id=1AyjhgVBDAWI1maysloffNevuSCDIunVT).
