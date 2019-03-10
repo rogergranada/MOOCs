@@ -1,10 +1,10 @@
 # edX : IBM DL0110EN - Deep Learning with Python and PyTorch
 
-<img alt="Status" src="https://cdn.rawgit.com/rogergranada/MOOCs/master/_utils/inprogress.svg">
+![Status](https://img.shields.io/badge/Status-Finished-green.svg)
 
 This folder contains codes to the [Deep Learning with Python and PyTorch](https://www.edx.org/course/deep-learning-with-python-and-pytorch) course by Joseph Santarcangelo. 
 
-[DL011EN](https://prod-discovery.edx-cdn.org/media/course/image/17920e6b-e3ed-4819-8116-e48854e62cce-f78831c35d44.small.jpg)
+![DL011EN](https://prod-discovery.edx-cdn.org/media/course/image/17920e6b-e3ed-4819-8116-e48854e62cce-f78831c35d44.small.jpg)
 
 According to the description presented in the web site:
 
