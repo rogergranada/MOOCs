@@ -27,6 +27,13 @@ This course provides a broad introduction to machine learning, datamining, and s
 
 ## [Udacity Machine Learning](https://classroom.udacity.com/courses/ud262)
 
+## [Udacity Artificial Intelligence](https://classroom.udacity.com/courses/cs271)
+
+## [Udacity Intro to Machine Learning](https://classroom.udacity.com/courses/ud120)
+
+## [Udacity Reinforcement Learning by Georgia Tech](https://classroom.udacity.com/courses/ud600)
+
+## [Udacity Intro to Deep Learning with PyTorch by FAIR](https://www.udacity.com/course/deep-learning-pytorch--ud188)
 
 ---
 ---
