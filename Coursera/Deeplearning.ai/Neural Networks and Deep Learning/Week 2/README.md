@@ -15,7 +15,7 @@ Learn to set up a machine learning problem with a neural network mindset. Learn 
 ## Content:
 
 - [Logistic Regression as Neural Network](https://nbviewer.jupyter.org/github/rogergranada/MOOCs/blob/master/Coursera/Deeplearning.ai/Neural%20Networks%20and%20Deep%20Learning/Week%202/Logistic%20Regression%20and%20Derivatives.ipynb)
-- Python and Vectorization
+- [Python and Vectorization](https://nbviewer.jupyter.org/github/rogergranada/MOOCs/blob/master/Coursera/Deeplearning.ai/Neural%20Networks%20and%20Deep%20Learning/Week%202/1.%20Python%20and%20Vectorization.ipynb)
 - Practice Questions
 - Programming Assignments
 
