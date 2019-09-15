@@ -5,4 +5,4 @@ This repository contains examples and exercises for Massive Open Online Courses,
 
 ## How to open Jupyter notebook examples?
 
-In order to better visualize Jupyter notebook examples, please open them in [nbviewer](https://nbviewer.jupyter.org/).
+In order to better visualize [Jupyter notebook](https://jupyter.org) examples, please open them in [nbviewer](https://nbviewer.jupyter.org/).
