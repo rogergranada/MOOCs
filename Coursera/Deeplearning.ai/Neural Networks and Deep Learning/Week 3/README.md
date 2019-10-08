@@ -13,7 +13,7 @@ Learn to build a neural network with one hidden layer, using forward propagation
 
 ## Content
 
-- Shallow Neural Network
+- [Shallow Neural Network](https://nbviewer.jupyter.org/github/rogergranada/MOOCs/blob/master/Coursera/Deeplearning.ai/Neural%20Networks%20and%20Deep%20Learning/Week%203/Neural%20Networks%20-%20Vectorizing%20through%20all%20examples.ipynb)
 - Practice Questions
 - Programming Assignment
 
