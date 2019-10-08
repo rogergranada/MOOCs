@@ -12,6 +12,6 @@ Understand the key computations underlying deep learning, use them to build and 
 
 ## Content
 
-- Deep Neural Network
+- [Deep Neural Network](https://nbviewer.jupyter.org/github/rogergranada/MOOCs/blob/master/Coursera/Deeplearning.ai/Neural%20Networks%20and%20Deep%20Learning/Week%204/Deep%20Neural%20Network.ipynb)
 - Practice Questions
 - Programming Assignments
