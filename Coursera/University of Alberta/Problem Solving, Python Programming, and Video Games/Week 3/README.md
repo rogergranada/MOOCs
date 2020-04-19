@@ -1,0 +1,3 @@
+## Module 2: Program Hacking Version 1
+
+In Module 2, you will discover how lexics, syntax, and semantics can be used to understand and describe programming languages. You will use these concepts to understand your first Python statement (expression statement), first three Python expressions (literal, identifier, function call), and first five Python types (int, str, float, function, NoneType). You will use these Python constructs to write, test, and debug Hacking Version 1, a text-based game version. You will then reflect on your game version by using a third problem-solving technique called abstraction, including the specific technique of solution generalization, to solve similar problems.
