@@ -1,0 +1,3 @@
+# Week 2: Module 1
+
+In Module 1, you will explore the game creation process that is used in this course. You will use this process to design Version 1 of the first game, Hacking. You will use two problem-solving techniques: problem decomposition and algorithms. You will explore five criteria for problem decomposition: experiential decomposition, feature selection, problem refinement, spatial decomposition, and temporal decomposition. To create your design for Hacking Version 1, you will use three interactive learning objects: the description builder, functional test plan builder, and algorithm builder.
