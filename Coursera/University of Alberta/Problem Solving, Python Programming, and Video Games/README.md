@@ -1,6 +1,6 @@
 # Coursera : University of Alberta :: Problem Solving, Python Programming, and Video Games
 
-<img alt="Status" src="https://cdn.rawgit.com/rogergranada/MOOCs/master/_utils/inprogress.svg">
+<img alt="Status" src="https://cdn.rawgit.com/rogergranada/MOOCs/master/_utils/finished.svg">
 
 This folder contains codes to the [Problem Solving, Python Programming, and Video Games](https://www.coursera.org/learn/problem-solving-programming-video-games) course by Duane Szafron and Paul Lu. According to the description presented in the web site:
 
