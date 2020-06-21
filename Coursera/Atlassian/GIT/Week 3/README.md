@@ -1,0 +1,3 @@
+# Branching and Merging II
+
+This module continues the discussion of branching and merging. It starts with resolving a merge conflict. Then synchronizing with remote repositories is covered, including the fetch, pull and push commands. The other major topic of this module is rewriting history. The commit history is an important part of a project. A clean commit history makes it easier to understand the project, and then contribute to it by adding new features or fixing problems. If you have not shared your commits, you can rewrite them in a way that makes a cleaner project history. Rewriting history includes amending commits and rebasing.
