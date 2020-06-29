@@ -1,6 +1,6 @@
 # Coursera : University of Alberta :: Fundamentals of Reinforcement Learning
 
-<img alt="Status" src="https://cdn.rawgit.com/rogergranada/MOOCs/master/_utils/inprogress.svg">
+<img alt="Status" src="https://cdn.rawgit.com/rogergranada/MOOCs/master/_utils/finished.svg">
 
 This folder contains codes to the [Fundamentals of Reinforcement Learning](https://www.coursera.org/learn/fundamentals-of-reinforcement-learning) course by Martha White and Adam White. According to the description presented in the web site:
 
